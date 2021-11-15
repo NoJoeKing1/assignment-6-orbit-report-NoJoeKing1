@@ -47,10 +47,10 @@ export class AppComponent {
 			if (name.indexOf(searchTerm) >= 0) {
 				matchingSatellites.push(this.sourceList[i]);
 			}
-			if (type.indexOf(searchTerm) >= 0) {
+			else if (type.indexOf(searchTerm) >= 0) {
 				matchingSatellites.push(this.sourceList[i]);
 			}
-			if (orbitType.indexOf(searchTerm) >= 0) {
+			else if (orbitType.indexOf(searchTerm) >= 0) {
 				matchingSatellites.push(this.sourceList[i]);
 			}
 		}
